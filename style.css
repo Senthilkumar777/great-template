@@ -48,8 +48,8 @@ text-align: center;
 color: white;
 background-image: url(./image/f.jpg );
 background-size: cover;
-padding-top: 100px;
-padding-bottom: 100px;
+padding-top: 300px;
+padding-bottom: 300px;
 
 
 }
@@ -209,7 +209,7 @@ background-size: cover;
  }
 .up{
     
-    padding-left: 800px;
+    padding-left: 1000px;
     z-index: 1;
 }
 
