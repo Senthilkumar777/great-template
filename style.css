@@ -219,6 +219,7 @@ background-size: cover;
 
 @media (max-width:576px) {
 .container-fluid{
+ display:block;
     color: rgb(22, 252, 6);
   display:inline-block ;
   width: 100%;
