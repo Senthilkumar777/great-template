@@ -1,0 +1,293 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); 
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', serif;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+  
+}
+
+
+.container-fluid{
+    color: chartreuse;
+    background-color: beige;
+    font-weight: 100;
+    font-size: medium;
+    
+     
+}
+nav{
+    
+    flex: 1;
+    text-align: right;
+    
+   
+    
+}
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    color: black;
+    
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #000;
+    
+}
+
+#why-us{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    
+text-align: center;
+color: white;
+background-image: url(./image/f.jpg );
+background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+
+
+}
+.title1{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:rgb(1, 253, 47) ;
+}
+
+#why-us-b{
+    background-color: rgb(255, 183, 0);
+    text-transform: uppercase;
+}
+#row1{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.t1{
+    text-transform: uppercase;
+
+}
+#our{
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    background-color: rgb(229, 227, 227);
+    background-image: url(./image/b.png);
+    background-size: cover;
+}   
+.title2{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(6, 215, 6);
+}
+#btn2{
+background-color: rgb(255, 183, 0);
+text-transform: uppercase;
+}
+.hand{
+padding-left: 20px;
+}
+.date{
+    padding-left: 70px;
+}
+.command{
+    padding-left: 40px;
+}
+#about{
+    
+    background-image: url(./image/d.jpg);
+    background-size: cover;
+}
+.con1{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    align-items: center;
+    
+}
+
+.services-t{
+    
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(6, 215, 6);
+}
+.kkk{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+.services-p{
+    
+    text-align: center ;
+    color: white;
+    
+    
+}
+#services{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    padding-left: 320px;
+    padding-right:80px ;
+   color: white;
+    display: inline-block;
+    
+}
+.star{
+    color: white;
+    background-color: black;
+    padding: 75px;
+}
+#portfolio{
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    
+    
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.title3{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(6, 215, 6);
+}
+.portfolio-p{
+    text-align: center ;
+    color: white;
+}
+#portfolio-b{
+  
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(45, 249, 4);
+}
+#portfolio-bb{
+   
+    text-transform: uppercase;
+    color: rgb(255, 68, 0);
+    border-bottom: 2px solid orangered;
+}
+#portfolio1{
+   
+    
+    color: aliceblue;
+}
+.tt1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(16, 72, 224);
+}
+.inner{
+    color: black;
+    box-shadow: 5px 5px 5px 5px rgb(215, 215, 223);
+}
+.copy1{
+    text-align: center;
+}
+.fff{
+    padding-top: 200px;
+    padding-bottom: 200px;
+background-image: url(./image/e.png);
+background-size: cover;
+
+}
+.jjj{
+   color: rgb(132, 142, 125);
+    text-align: left;
+}
+.jj{
+    color: rgb(132, 142, 125);
+     text-align: right;
+ }
+.up{
+    
+    padding-left: 800px;
+    z-index: 1;
+}
+
+@media (max-width:576px) {
+.container-fluid{
+    color: rgb(22, 252, 6);
+  display:inline-block ;
+  width: 100%;
+  
+}
+#why-us{
+    height: 400px;
+}
+#our{
+    display: block;
+    width: 100%;
+}
+.nav-link{
+    display: block;
+
+}
+#our .col-3{
+display: block !important;
+width: 100%;
+ } 
+ #portfolio-bb{
+    padding-left: 60px;
+   padding-right: 60px;
+    
+}  
+ #portfolio-b{
+    padding-left: 60px;
+    padding-right: 60px;
+    color: rgb(12, 1, 1);
+}  
+ #row1{
+    padding-right: 100px;
+
+ } 
+ #services{
+    padding-left: 70px;
+    padding-right: 80px;
+    display: block;
+ }
+ 
+ .col-3{
+    display: block;
+ }
+ .card{
+    display: block;
+ }
+ #portfolio1{
+   padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    color: rgb(205, 214, 222);
+}
+.up{
+    
+    padding-left: 290px;
+    z-index: 1;
+}
+.fff{
+   
+background-image: url(./image/e.png);
+background-size: cover;
+
+}
+.jjj{
+    color: rgb(132, 142, 125);
+     text-align: left;
+     font-size: xx-large;
+ }
+ .jj{
+    font-size: xx-large;
+     color: rgb(132, 142, 125);
+      text-align: left;
+  }
+
+}
